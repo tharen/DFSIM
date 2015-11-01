@@ -17,7 +17,7 @@ set (${APP_NAME}_VERSION_MINOR 4)
 ##enable_language (Fortran)
 add_executable (${APP_NAME} econ.for functions.for main.for subroutines.for)
 
-SET_TARGET_PROPERTIES(${APP_NAME} PROPERTIES LINKER_LANGUAGE CXX)
+SET_TARGET_PROPERTIES(${APP_NAME} PROPERTIES LINKER_LANGUAGE Fortran)
 
 add_executable (simin2 simin.for)
 
