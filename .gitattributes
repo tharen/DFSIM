@@ -1,0 +1,11 @@
+# Set the default behavior, in case people don't have core.autocrlf set.
+* text=auto
+
+*.for text
+*.f90 text
+*.c text
+*.py text
+*.sh text
+
+*.txt text
+*.md text
